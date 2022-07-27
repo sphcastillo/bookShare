@@ -15,7 +15,7 @@ function BookCard(book) {
                         <div className="bookSubtitleWrapper">
                             <div className="bookSubtitle">{book.subtitle}</div>
                         </div>
-                    }
+                        }
                         <div className="bookAuthorWrapper">
                             <div className="bookAuthor">Written by {book.authors}</div>
                         </div>

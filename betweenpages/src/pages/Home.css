@@ -25,30 +25,87 @@
 }
 
 
+.hereBookTypeBelowWrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+.hereBookWrapper {
+
+    width: 80%;
+}
+
+.hereBook {
+
+    font-weight: bold;
+}
+
+.searchBookInputWrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+.searchBookInput {
+
+    width: 80%;
+    height: 25px;
+}
+
+.bookSearchButtonWrapper {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.bookSearchButton {
+
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: slateblue;
+    cursor: pointer;
+    color: white;
+}
+
 
 .bookcardWrapper {
 
     height: fit-content;
     width: 100%;
-    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+.bookcardContainer {
+
+    width: 90%;
+    border: 1px solid darkgrey;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .resultsExplanationWrapper {
 
     width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 40px;
 }
 
-.resultWrapper {
+.resultsWrapper {
 
-    width: 90%;
+    height: 50px;
+    background-color: lightgray;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
-.resultHeaderWrapper {
+.resultHeader {
 
-    padding: 6px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 .bookCardRows {
@@ -63,6 +120,6 @@
 
     .searchBookInputWrapper {
 
-        padding-top: 20px;
+        padding-top: 8px;
     }
 }
