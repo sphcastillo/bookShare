@@ -1,0 +1,118 @@
+.onebookcard {
+
+    margin: 10px;
+    /* height: 200px; */
+    width: 90%;
+    background-color: white;
+    border: 1px solid slategrey;
+    border-radius: 8px;
+}
+
+.bookFullContentWrapper {
+
+    padding: 10px;
+}
+
+
+.mainContentButtonWrapper {
+
+    display: inline-flex;
+    width: 100%;
+}
+
+.bookContentWrapper {
+
+    width: 75%;
+
+}
+
+.bookButtonsWrapper {
+
+    width: 25%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.viewBookButton {
+
+    background-color: lightblue;
+    border:none;
+    padding: 8px 14px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.saveBookButton {
+
+    background-color: lightblue;
+    border:none;
+    padding: 8px 14px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.imageDescriptionWrapper {
+
+    display: inline-flex;
+}
+
+.bookImageWrapper {
+
+    display: flex;
+    justify-content: center;
+}
+
+.bookImageLink {
+
+    cursor: pointer;
+}
+
+@media screen and (max-width: 2400px){
+
+    .bookTitle {
+
+        font-size: 20px;
+    }
+
+    .bookSubtitle {
+
+        font-size: 18px;
+    }
+
+    .imageDescriptionWrapper {
+
+        padding-top: 12px;
+    }
+
+    .bookImageWrapper {
+
+        padding: 14px;
+    }
+
+    .bookImage {
+
+        padding: 5px;
+        border: 1px solid lightgrey;
+        border-radius: 8px;
+    }
+
+    .bookDescriptionWrapper {
+
+        padding: 10px 20px;
+        height: fit-content;
+    }
+
+    .bookDescription {
+
+        line-height: 24px;
+    }
+
+    .bookButtonsWrapper {
+
+    }
+}

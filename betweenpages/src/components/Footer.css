@@ -1,0 +1,19 @@
+.footerWrapper {
+
+    height: 80px;
+    background-color: aquamarine;
+}
+
+.footerHeaderWrapper {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.footerHeader {
+
+    color: white;
+    font-size: 24px;
+}
